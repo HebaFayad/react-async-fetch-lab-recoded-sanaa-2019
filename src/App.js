@@ -1,10 +1,9 @@
 export default class App extends Component {
-    constructor() {
-        super();
-        this.state = {
+  
+        state = {
           people: []
         };
-      }
+     
     componentDidMount() {
         fetch("http://api.open-notify.org/astros.json")
           .then(response => response.json())
