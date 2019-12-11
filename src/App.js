@@ -16,19 +16,5 @@ export default class App extends Component {
       }
       
   
-    render() {
-      return (
-        <div>
-         <ul>
-            {this.state.people.map(person => {
-            return(
-                          
-                <li>{person.name}</li>
-                <li>{person.craft}</li>
-            )
-            }}
-         </ul>
-        </div>
-      );
-    }
+    
   }
